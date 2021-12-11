@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=M+PLUS+2:wght@200;300;400&family=Playfair+Display:wght@600;700&family=Quicksand:wght@400;500;700&family=Roboto:ital,wght@0,400;0,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=M+PLUS+2:wght@200;300;400&family=Playfair+Display:wght@400;600;700&family=Quicksand:wght@400;500;700&family=Roboto:ital,wght@0,400;0,500;1,700;1,900&display=swap');
+@import 'section_3_4/styling_3_4';
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+@mixin font-family {
+    font-family:  'Playfair Display', serif;
+    font-size: 60px;
+    font-weight: 600;
+}
+@mixin background{
+    background-color: #f5f7f6;    
+}
+@mixin button{
+    width: 230px;
+    height: 50px;
+    background-color: rgb(27, 26, 26);
+    color: #fff;
+    border-radius: 40px;
+    font-family: sans-serif;
+    font-size: 15px;
+    outline: none;
+    border: none;
+    transition: .2s ease all;
+
+    &:hover{
+        opacity: .7;
+    }
+
+}
+@mixin paragraf{
+    font-family: sans-serif;
+    line-height: 1.7;
+}
+.navbar_section{
+    height: 5rem;
+}
+.navbar{
+    margin-top: 1rem;
+}
+.logo{
+    font-size: 70px;
+    transition: .2s ease all;
+
+    &:hover{
+        cursor: pointer;
+    }
+
+    img{
+        margin-top: 5px;
+        margin-right: 1rem;
+        color: #4aa84d;
+        transition: .2s ease all;
+
+        &:hover{
+            cursor: pointer;
+            opacity: .7;
+        }
+    }
+}
+.link{
+    a{
+        text-decoration: none;
+        margin-right: 3rem;
+        font-family: sans-serif;
+        color: #000;
+        margin-top: .5rem;
+        transition: .2s ease all;
+
+        &:hover{
+            cursor: pointer;
+            color: blue;
+            transform: scale(1.2);
+        }
+    }
+}
+.search{
+    margin-top: -.7rem;
+}
+.btn-1{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    font-family: sans-serif;
+    background-color: #fff;
+    border: 2px solid gray;
+    margin-right: 1rem;
+    margin-top: .5rem;
+    transition: .2s ease all;
+
+    &:hover{
+        background-color: rgb(27, 26, 26);
+        color: #fff;
+    }
+}
+.btn-2{
+    width: 150px;
+    height: 43px;
+    border-radius: 40px;
+    font-family: sans-serif;
+    font-size: 14px;
+    margin-top: .5rem;
+    background-color: rgb(27, 26, 26);
+    color: #fff;
+    border: none;
+    transition: .5s ease all;
+
+    &:hover{
+        opacity: .7;
+    }
+}
+
+
+/* Start Section-2 style */
+.section-2{
+    @include background;
+
+    .cloud{
+        h1{
+        @include font-family();
+        margin-top: 10rem
+    }
+  }
+   p{
+       margin-top: 1.5rem;
+       @include paragraf();
+   }
+    .btn-3{
+        button{
+            @include button();
+            margin-top: 2rem;
+        }
+    }
+    .images-block{
+        position: absolute;
+        margin-left: 27rem;
+    }
+    .girl_image{
+        margin-left: 10rem;
+        margin-top: 5rem;
+    }
+    .girl_1{
+        margin-top: -44rem;
+        margin-left: 4rem;
+    }
+    .girl_2{
+        position: absolute;
+        margin-top: -25rem;
+        margin-left: 14rem;
+    }
+    .girl_3{
+        margin-top: -8rem;
+        margin-left: -1rem;
+    }
+    .logo-footer{
+        padding-top: 20rem;
+        padding-bottom: 10rem;
+        img{
+
+            &:hover{
+                cursor: pointer;
+            }
+        }
+    }
+    
+}
+
+
+
+/* End Section-2 style */
+
+/* Start section-3 styling*/
+.section-3{
+    height: 40rem;
+    h1{
+        @include font-family();
+        margin-top: 5rem;
+        margin-bottom: 2rem;
+    }
+    p{
+        @include paragraf();
+    }
+    .btn-4{
+        button{
+            @include button();
+            margin-top: 2rem;
+        }
+    }
+    .seetting-block{
+        margin-top: 5rem;
+        margin-left: 9rem;
+        padding: 5rem;
+        width: 75%;
+        height: 30rem;
+        @include background();
+        border-radius: 10px;
+
+        h3{
+          margin-top: 1rem;
+        }
+        p{
+            @include paragraf();
+            margin-top: 1rem;
+        }
+        a{
+            text-decoration: none;
+            color: #000;
+            font-weight: 600;
+            transition: .2s ease all;
+
+            &:hover{
+                color: red;
+            }
+        }
+    }
+}
+
+/* End section-3 styling*/
+
+
+
+.bars_icon{
+    i{
+        display: none;
+    }
+}
+@media screen and (max-width:1000px) {
+    .bars_icon{
+        i{
+            display: block;
+        }
+    }
+    .navigation{
+        opacity: 0;
+    }   
+} 
+
+
+ 

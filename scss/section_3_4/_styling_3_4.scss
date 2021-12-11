@@ -1,0 +1,256 @@
+@mixin font-family {
+    font-family:  'Playfair Display', serif;
+    font-size: 50px;
+    font-weight: 600;
+}
+@mixin background{
+    background-color: #f5f7f6;    
+}
+@mixin button{
+    width: 230px;
+    height: 50px;
+    background-color: rgb(27, 26, 26);
+    color: #fff;
+    border-radius: 40px;
+    font-family: sans-serif;
+    font-size: 15px;
+    outline: none;
+    border: none;
+    transition: .2s ease all;
+
+    &:hover{
+        opacity: .7;
+    }
+
+}
+@mixin paragraf{
+    font-family: sans-serif;
+    line-height: 1.7;
+}
+
+.section_4{
+    @include background();
+    height: 30rem;
+    h1{
+        @include font-family();
+        margin-bottom: 2rem;
+    }
+    h2{
+        margin-bottom: 1rem;
+       font-size: 55px;
+       font-family:sans-serif;
+    }
+    .now{
+        border-radius: 10px;
+        &:hover{
+            cursor: pointer;
+        }
+    }
+}
+.section-5{
+    height: 40rem;
+    img{
+        &:hover{
+            cursor: pointer;
+        }
+    }
+
+  .header-2{
+    margin-top: 8rem;
+   }
+  h1{
+      @include font-family();
+  }
+  p{
+      @include paragraf();
+      margin-top: 2rem;
+  }
+  span{
+      margin: .5rem;
+      color: rgb(75, 70, 70);
+  }
+  .list{
+      margin-top: 1rem;
+     
+      li{
+          list-style: none;
+          margin-left: 2rem;
+          margin-top: .7rem;
+      }
+  }
+  a{
+      font-size: 20px;
+      padding-top: 5rem;
+      text-decoration: none;
+      color: #000;
+      font-weight: 600;
+      transition: .2s ease all;
+
+      &:hover{
+          color: red;
+      }
+  }
+  .logo_block{
+
+      position: relative;
+  }
+      .logo_image{
+          margin-top: 7rem;
+          margin-left: 7rem;
+
+          &:hover{
+              cursor: pointer;
+          }
+      }
+ .logo_circle{
+       position: absolute;
+       margin-top: -15rem;
+       margin-left: 23rem;
+ }
+ .logo_play{
+    position: absolute;
+    margin-left: 26rem;
+    margin-top: -12.5rem;
+    
+ }
+}
+
+/* Start Section 6 styling */
+.section_6{
+    height: 25rem;
+
+    h1{
+        @include font-family();
+        margin-bottom: 5rem;
+    }
+
+    img{
+
+        &:hover{
+            cursor: pointer;
+        }
+    }
+}
+
+/* End Section 6 styling */
+
+/* Start Section 7 styling */
+.section-7{
+    @include background();
+    height: 26rem;
+
+    .word_section-7{
+       padding: 6rem
+    }
+    h2{
+        @include font-family();
+        font-size: 40px;
+        letter-spacing: 2px;
+    }
+    p{
+        font-size: 20px;
+        font-family: sans-serif;
+        margin: 1.5rem;
+    }
+    button{
+        @include button();
+    }
+}
+
+/* End Section 7 styling */
+
+/* Start Section footer styling*/
+
+.section-footer{
+    padding: 4rem;
+    height: 40rem;
+    background-color: rgb(27, 26, 26);
+    color: #fff;
+    p{
+        opacity: .7;
+    }
+   
+    li{
+        margin-top: 8px;
+
+        &:hover{
+            cursor: pointer;
+        }
+    }
+    ol{
+        margin-top: 2rem;
+    }
+    .btn-footer{
+        margin-top: 3rem;
+        button{
+            @include button();
+            background-color: rgb(82, 82, 82);
+            width: 230;
+        }
+    }
+    .contact{
+        margin-top: 8rem;
+        width: 10rem;
+        img{
+            margin-right: 2rem;
+            &:hover{
+                cursor: pointer;
+            }
+        }
+    }
+    .top{
+        position: absolute;
+        margin-left: 8.8rem;
+        margin-top: .15rem;
+    }
+    .sign{
+        width: 45rem;
+        margin-top: -20rem;
+        margin-left: 32rem;
+        span{
+            font-size: 20px;
+            margin: 1rem 0 1rem 0;
+        }
+       
+        input{
+            margin-top: 2rem;
+            width: 400px;
+            height: 50px;
+            padding-left: 25px;
+            border-radius: 5px;
+            outline: none;
+        }
+        button{
+            @include button();
+            background-color: rgb(82, 82, 82);
+            width: 150px;
+            margin-left: 3rem;
+        }
+    }
+    .footer_word{
+        width: 45rem;
+        margin-left: 29rem;
+        margin-top: -1rem;
+        p{
+        margin-left: 3rem;
+
+        &:hover{
+            cursor: pointer;
+        }
+        }
+    }
+    .last{
+        width: 24rem;
+        margin-top: -2.5rem;
+        margin-left: 55rem;
+
+        &:hover{
+            cursor: pointer;
+        }
+    }
+    
+}
+
+
+
+/* Start Section footer styling*/

@@ -1,0 +1,466 @@
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&family=M+PLUS+2:wght@200;300;400&family=Playfair+Display:wght@600;700&family=Quicksand:wght@400;500;700&family=Roboto:ital,wght@0,400;0,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&family=M+PLUS+2:wght@200;300;400&family=Playfair+Display:wght@400;600;700&family=Quicksand:wght@400;500;700&family=Roboto:ital,wght@0,400;0,500;1,700;1,900&display=swap");
+.section_4 {
+  background-color: #f5f7f6;
+  height: 30rem;
+}
+.section_4 h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 50px;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+.section_4 h2 {
+  margin-bottom: 1rem;
+  font-size: 55px;
+  font-family: sans-serif;
+}
+.section_4 .now {
+  border-radius: 10px;
+}
+.section_4 .now:hover {
+  cursor: pointer;
+}
+
+.section-5 {
+  height: 40rem;
+}
+.section-5 img:hover {
+  cursor: pointer;
+}
+.section-5 .header-2 {
+  margin-top: 8rem;
+}
+.section-5 h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 50px;
+  font-weight: 600;
+}
+.section-5 p {
+  font-family: sans-serif;
+  line-height: 1.7;
+  margin-top: 2rem;
+}
+.section-5 span {
+  margin: 0.5rem;
+  color: #4b4646;
+}
+.section-5 .list {
+  margin-top: 1rem;
+}
+.section-5 .list li {
+  list-style: none;
+  margin-left: 2rem;
+  margin-top: 0.7rem;
+}
+.section-5 a {
+  font-size: 20px;
+  padding-top: 5rem;
+  text-decoration: none;
+  color: #000;
+  font-weight: 600;
+  transition: 0.2s ease all;
+}
+.section-5 a:hover {
+  color: red;
+}
+.section-5 .logo_block {
+  position: relative;
+}
+.section-5 .logo_image {
+  margin-top: 7rem;
+  margin-left: 7rem;
+}
+.section-5 .logo_image:hover {
+  cursor: pointer;
+}
+.section-5 .logo_circle {
+  position: absolute;
+  margin-top: -15rem;
+  margin-left: 23rem;
+}
+.section-5 .logo_play {
+  position: absolute;
+  margin-left: 26rem;
+  margin-top: -12.5rem;
+}
+
+/* Start Section 6 styling */
+.section_6 {
+  height: 25rem;
+}
+.section_6 h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 50px;
+  font-weight: 600;
+  margin-bottom: 5rem;
+}
+.section_6 img:hover {
+  cursor: pointer;
+}
+
+/* End Section 6 styling */
+/* Start Section 7 styling */
+.section-7 {
+  background-color: #f5f7f6;
+  height: 26rem;
+}
+.section-7 .word_section-7 {
+  padding: 6rem;
+}
+.section-7 h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 50px;
+  font-weight: 600;
+  font-size: 40px;
+  letter-spacing: 2px;
+}
+.section-7 p {
+  font-size: 20px;
+  font-family: sans-serif;
+  margin: 1.5rem;
+}
+.section-7 button {
+  width: 230px;
+  height: 50px;
+  background-color: #1b1a1a;
+  color: #fff;
+  border-radius: 40px;
+  font-family: sans-serif;
+  font-size: 15px;
+  outline: none;
+  border: none;
+  transition: 0.2s ease all;
+}
+.section-7 button:hover {
+  opacity: 0.7;
+}
+
+/* End Section 7 styling */
+/* Start Section footer styling*/
+.section-footer {
+  padding: 4rem;
+  height: 40rem;
+  background-color: #1b1a1a;
+  color: #fff;
+}
+.section-footer p {
+  opacity: 0.7;
+}
+.section-footer li {
+  margin-top: 8px;
+}
+.section-footer li:hover {
+  cursor: pointer;
+}
+.section-footer ol {
+  margin-top: 2rem;
+}
+.section-footer .btn-footer {
+  margin-top: 3rem;
+}
+.section-footer .btn-footer button {
+  width: 230px;
+  height: 50px;
+  background-color: #1b1a1a;
+  color: #fff;
+  border-radius: 40px;
+  font-family: sans-serif;
+  font-size: 15px;
+  outline: none;
+  border: none;
+  transition: 0.2s ease all;
+  background-color: #525252;
+  width: 230;
+}
+.section-footer .btn-footer button:hover {
+  opacity: 0.7;
+}
+.section-footer .contact {
+  margin-top: 8rem;
+  width: 10rem;
+}
+.section-footer .contact img {
+  margin-right: 2rem;
+}
+.section-footer .contact img:hover {
+  cursor: pointer;
+}
+.section-footer .top {
+  position: absolute;
+  margin-left: 8.8rem;
+  margin-top: 0.15rem;
+}
+.section-footer .sign {
+  width: 45rem;
+  margin-top: -20rem;
+  margin-left: 32rem;
+}
+.section-footer .sign span {
+  font-size: 20px;
+  margin: 1rem 0 1rem 0;
+}
+.section-footer .sign input {
+  margin-top: 2rem;
+  width: 400px;
+  height: 50px;
+  padding-left: 25px;
+  border-radius: 5px;
+  outline: none;
+}
+.section-footer .sign button {
+  width: 230px;
+  height: 50px;
+  background-color: #1b1a1a;
+  color: #fff;
+  border-radius: 40px;
+  font-family: sans-serif;
+  font-size: 15px;
+  outline: none;
+  border: none;
+  transition: 0.2s ease all;
+  background-color: #525252;
+  width: 150px;
+  margin-left: 3rem;
+}
+.section-footer .sign button:hover {
+  opacity: 0.7;
+}
+.section-footer .footer_word {
+  width: 45rem;
+  margin-left: 29rem;
+  margin-top: -1rem;
+}
+.section-footer .footer_word p {
+  margin-left: 3rem;
+}
+.section-footer .footer_word p:hover {
+  cursor: pointer;
+}
+.section-footer .last {
+  width: 24rem;
+  margin-top: -2.5rem;
+  margin-left: 55rem;
+}
+.section-footer .last:hover {
+  cursor: pointer;
+}
+
+/* Start Section footer styling*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar_section {
+  height: 5rem;
+}
+
+.navbar {
+  margin-top: 1rem;
+}
+
+.logo {
+  font-size: 70px;
+  transition: 0.2s ease all;
+}
+.logo:hover {
+  cursor: pointer;
+}
+.logo img {
+  margin-top: 5px;
+  margin-right: 1rem;
+  color: #4aa84d;
+  transition: 0.2s ease all;
+}
+.logo img:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.link a {
+  text-decoration: none;
+  margin-right: 3rem;
+  font-family: sans-serif;
+  color: #000;
+  margin-top: 0.5rem;
+  transition: 0.2s ease all;
+}
+.link a:hover {
+  cursor: pointer;
+  color: blue;
+  transform: scale(1.2);
+}
+
+.search {
+  margin-top: -0.7rem;
+}
+
+.btn-1 {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  font-family: sans-serif;
+  background-color: #fff;
+  border: 2px solid gray;
+  margin-right: 1rem;
+  margin-top: 0.5rem;
+  transition: 0.2s ease all;
+}
+.btn-1:hover {
+  background-color: #1b1a1a;
+  color: #fff;
+}
+
+.btn-2 {
+  width: 150px;
+  height: 43px;
+  border-radius: 40px;
+  font-family: sans-serif;
+  font-size: 14px;
+  margin-top: 0.5rem;
+  background-color: #1b1a1a;
+  color: #fff;
+  border: none;
+  transition: 0.5s ease all;
+}
+.btn-2:hover {
+  opacity: 0.7;
+}
+
+/* Start Section-2 style */
+.section-2 {
+  background-color: #f5f7f6;
+}
+.section-2 .cloud h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 60px;
+  font-weight: 600;
+  margin-top: 10rem;
+}
+.section-2 p {
+  margin-top: 1.5rem;
+  font-family: sans-serif;
+  line-height: 1.7;
+}
+.section-2 .btn-3 button {
+  width: 230px;
+  height: 50px;
+  background-color: #1b1a1a;
+  color: #fff;
+  border-radius: 40px;
+  font-family: sans-serif;
+  font-size: 15px;
+  outline: none;
+  border: none;
+  transition: 0.2s ease all;
+  margin-top: 2rem;
+}
+.section-2 .btn-3 button:hover {
+  opacity: 0.7;
+}
+.section-2 .images-block {
+  position: absolute;
+  margin-left: 27rem;
+}
+.section-2 .girl_image {
+  margin-left: 10rem;
+  margin-top: 5rem;
+}
+.section-2 .girl_1 {
+  margin-top: -44rem;
+  margin-left: 4rem;
+}
+.section-2 .girl_2 {
+  position: absolute;
+  margin-top: -25rem;
+  margin-left: 14rem;
+}
+.section-2 .girl_3 {
+  margin-top: -8rem;
+  margin-left: -1rem;
+}
+.section-2 .logo-footer {
+  padding-top: 20rem;
+  padding-bottom: 10rem;
+}
+.section-2 .logo-footer img:hover {
+  cursor: pointer;
+}
+
+/* End Section-2 style */
+/* Start section-3 styling*/
+.section-3 {
+  height: 40rem;
+}
+.section-3 h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 60px;
+  font-weight: 600;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+}
+.section-3 p {
+  font-family: sans-serif;
+  line-height: 1.7;
+}
+.section-3 .btn-4 button {
+  width: 230px;
+  height: 50px;
+  background-color: #1b1a1a;
+  color: #fff;
+  border-radius: 40px;
+  font-family: sans-serif;
+  font-size: 15px;
+  outline: none;
+  border: none;
+  transition: 0.2s ease all;
+  margin-top: 2rem;
+}
+.section-3 .btn-4 button:hover {
+  opacity: 0.7;
+}
+.section-3 .seetting-block {
+  margin-top: 5rem;
+  margin-left: 9rem;
+  padding: 5rem;
+  width: 75%;
+  height: 30rem;
+  background-color: #f5f7f6;
+  border-radius: 10px;
+}
+.section-3 .seetting-block h3 {
+  margin-top: 1rem;
+}
+.section-3 .seetting-block p {
+  font-family: sans-serif;
+  line-height: 1.7;
+  margin-top: 1rem;
+}
+.section-3 .seetting-block a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 600;
+  transition: 0.2s ease all;
+}
+.section-3 .seetting-block a:hover {
+  color: red;
+}
+
+/* End section-3 styling*/
+.bars_icon i {
+  display: none;
+}
+
+@media screen and (max-width: 1000px) {
+  .bars_icon i {
+    display: block;
+  }
+
+  .navigation {
+    opacity: 0;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
