@@ -124,6 +124,16 @@
         @include font-family();
         margin-top: 10rem
     }
+
+    @media screen and (max-width:768px) {
+        margin-top: 40rem;
+        widows: 60%;
+        text-align: center;
+        h1{
+            font-size: 40px;
+        }
+       
+    }
   }
    p{
        margin-top: 1.5rem;
@@ -133,15 +143,25 @@
         button{
             @include button();
             margin-top: 2rem;
+
+            @media screen and (max-width:776px){
+                width: 180px;
+            }
         }
     }
     .images-block{
         position: absolute;
         margin-left: 27rem;
+
+        @media screen and (max-width:776px) {
+             margin-left: -9rem;
+             text-align: center;
+        }
     }
     .girl_image{
         margin-left: 10rem;
         margin-top: 5rem;
+        animation: myfirst 5s linear 2s infinite;
     }
     .girl_1{
         margin-top: -44rem;
@@ -164,7 +184,13 @@
             &:hover{
                 cursor: pointer;
             }
+        
+
+        @media screen and (max-width:992px) {
+            display: none;
+            margin-top: -20rem;
         }
+    }
     }
     
 }
@@ -175,19 +201,48 @@
 
 /* Start section-3 styling*/
 .section-3{
+
+    .cloud-2{
+
+        @media screen and (max-width:768) {
+            text-align: center;
+            width: 60%;
+            h1{
+                font-size: 40px;
+            }
+        }
+    }
     height: 40rem;
     h1{
         @include font-family();
         margin-top: 5rem;
         margin-bottom: 2rem;
+
+        @media screen and (max-width:776px) {
+            margin-top: -20rem;
+            font-size: 40px;
+            text-align: center;
+        }
     }
     p{
         @include paragraf();
+
+        @media screen and (max-width:768px) {
+            text-align: center;
+        }
     }
     .btn-4{
+        @media screen and (max-width:768px) {
+            text-align: center;
+        }
         button{
+            @media screen and (max-width:768px) {
+                width: 180px;
+                text-align: center;
+            }
             @include button();
             margin-top: 2rem;
+
         }
     }
     .seetting-block{
@@ -198,6 +253,13 @@
         height: 30rem;
         @include background();
         border-radius: 10px;
+
+        @media screen and (max-width:768px){
+            text-align: center;
+            margin-left: 0;
+            width: 100%;
+            margin-bottom: 3rem;
+        }
 
         h3{
           margin-top: 1rem;
@@ -227,8 +289,12 @@
     i{
         display: none;
     }
+
+    &:hover{
+        cursor: pointer;
+    }
 }
-@media screen and (max-width:1000px) {
+@media screen and (max-width:992px) {
     .bars_icon{
         i{
             display: block;
@@ -237,6 +303,13 @@
     .navigation{
         opacity: 0;
     }   
+    .images-block{
+        margin-left: -60rem;
+       
+    }
+    // .cloud{
+    //     margin-top: 20rem;
+    // }
 } 
 
 

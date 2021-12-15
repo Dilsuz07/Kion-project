@@ -31,14 +31,30 @@
 .section_4{
     @include background();
     height: 30rem;
+
+    @media screen and (max-width:768px){
+        margin-top: 3rem;
+        height: 40rem;
+    }
     h1{
         @include font-family();
         margin-bottom: 2rem;
+
+        @media screen and (max-width:768px){
+            font-size: 40px;
+            margin-top: 3rem;
+        }
     }
     h2{
-        margin-bottom: 1rem;
+       margin-bottom: 1rem;
        font-size: 55px;
        font-family:sans-serif;
+
+       @media screen and (max-width:768px){
+           font-size: 40px;
+       }
+
+
     }
     .now{
         border-radius: 10px;
@@ -49,17 +65,30 @@
 }
 .section-5{
     height: 40rem;
+
+    @media screen and (max-width:768px){
+        text-align: center;
+    }
     img{
         &:hover{
             cursor: pointer;
         }
+
+        
     }
 
   .header-2{
     margin-top: 8rem;
+    @media screen and (max-width:768px){
+        h1{
+            font-size: 40px;
+        }
+        // text-align: center;
+    }
    }
   h1{
       @include font-family();
+
   }
   p{
       @include paragraf();
@@ -71,11 +100,21 @@
   }
   .list{
       margin-top: 1rem;
+      
+      @media screen and (max-width:768px){
+        width: 100%;
+        text-align: center;
+
+    }
      
       li{
           list-style: none;
           margin-left: 2rem;
           margin-top: .7rem;
+
+          @media screen and (max-width:768px){
+              float: left;
+          }
       }
   }
   a{
@@ -85,18 +124,37 @@
       color: #000;
       font-weight: 600;
       transition: .2s ease all;
-
+    
       &:hover{
           color: red;
       }
+
+      @media screen and (max-width:768px){
+          text-align: center;
+          display: block;
+          margin-top: 2rem;
+      }
   }
   .logo_block{
-
       position: relative;
-  }
-      .logo_image{
-          margin-top: 7rem;
-          margin-left: 7rem;
+
+    }
+    .logo_image{
+        margin-top: 7rem;
+        margin-left: 7rem;
+        
+        @media screen and (max-width:768px){
+            width: 100%;
+            height: 100%;
+            margin-left: 0;
+            margin-top: 3rem;
+        }
+        @media screen and (max-width:992px){
+            width: 100%;
+            height: 100%;
+            margin-left: 0;
+            margin-top: 3rem;
+        }
 
           &:hover{
               cursor: pointer;
@@ -118,16 +176,34 @@
 /* Start Section 6 styling */
 .section_6{
     height: 25rem;
+    @media screen and (max-width:992px){
+        text-align: center;
+        margin-top: 14rem;
+    }
 
     h1{
         @include font-family();
         margin-bottom: 5rem;
+
+        @media screen and (max-width:992px){
+            letter-spacing: 3px;
+        }
+
+        @media screen and (max-width:992px){
+            font-size: 40px;
+            margin-bottom: 0;
+        }
+
     }
 
     img{
 
         &:hover{
             cursor: pointer;
+        }
+
+        @media screen and (max-width:992px){
+            margin: 2.5rem;
         }
     }
 }
@@ -137,7 +213,12 @@
 /* Start Section 7 styling */
 .section-7{
     @include background();
-    height: 26rem;
+   
+
+    @media screen and (max-width:992px){
+        margin-top: 10rem;
+        
+    }
 
     .word_section-7{
        padding: 6rem
@@ -154,6 +235,10 @@
     }
     button{
         @include button();
+
+        @media screen and (max-width:992px){
+            width: 180px;
+        }
     }
 }
 
@@ -163,7 +248,6 @@
 
 .section-footer{
     padding: 4rem;
-    height: 40rem;
     background-color: rgb(27, 26, 26);
     color: #fff;
     p{
@@ -185,12 +269,23 @@
         button{
             @include button();
             background-color: rgb(82, 82, 82);
-            width: 230;
+            
+            @media screen and (max-width:992px){
+                width: 180px;
+            }            
         }
     }
     .contact{
         margin-top: 8rem;
         width: 10rem;
+
+        @media screen and (max-width:992px){
+            display: flex;
+           position: absolute;
+            margin-top: 23rem;
+            justify-content: center;
+            margin-left: 9rem;
+        }
         img{
             margin-right: 2rem;
             &:hover{
@@ -207,9 +302,20 @@
         width: 45rem;
         margin-top: -20rem;
         margin-left: 32rem;
+
+        @media screen and (max-width:992px){
+            width: 100%;
+            margin-top: 0;
+            margin-left: 0;
+            text-align: center;
+        }
         span{
             font-size: 20px;
             margin: 1rem 0 1rem 0;
+
+            @media screen and (max-width:992px){
+                font-size: 14px;
+            }
         }
        
         input{
@@ -219,18 +325,33 @@
             padding-left: 25px;
             border-radius: 5px;
             outline: none;
+
+            @media screen and (max-width:992px){
+                width: 300px;
+            }
         }
         button{
             @include button();
             background-color: rgb(82, 82, 82);
             width: 150px;
             margin-left: 3rem;
+
+            @media screen and (max-width:992px){
+                margin-top: 2rem;
+                width: 180px;
+                text-align: center;
+                margin-left: -.5rem;
+            }           
         }
     }
     .footer_word{
         width: 45rem;
         margin-left: 29rem;
         margin-top: -1rem;
+
+        @media screen and (max-width:992px){
+            display: none;
+        }
         p{
         margin-left: 3rem;
 
@@ -246,6 +367,27 @@
 
         &:hover{
             cursor: pointer;
+        }
+    }
+
+    .line-1{
+
+        @media screen and (max-width:992px){
+            text-align: center;
+        }
+    }
+
+    .line-2{
+        @media screen and (max-width:992px){
+            display: none;
+        }
+    }
+
+    .logocha{
+
+        @media screen and (max-width:992px){
+            text-align: center;
+            margin: 2rem 0;
         }
     }
     
